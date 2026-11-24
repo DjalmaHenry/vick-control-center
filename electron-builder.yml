@@ -1,0 +1,18 @@
+appId: br.com.jalan.vick
+productName: Vick Control Center
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**
+  - package.json
+win:
+  target:
+    - target: portable
+      arch: [x64]
+  signAndEditExecutable: false
+  artifactName: Vick-Control-Center-${version}-portable.${ext}
+nsis:
+  oneClick: true
+  perMachine: false
+  artifactName: Vick-Control-Center-${version}-setup.${ext}
