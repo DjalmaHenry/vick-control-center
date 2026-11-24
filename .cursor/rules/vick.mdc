@@ -1,0 +1,13 @@
+---
+description: Regras do Vick Control Center (fonte única em AGENTS.md)
+alwaysApply: true
+---
+
+Leia e siga `AGENTS.md` na raiz do repositório antes de alterar código. Pontos críticos:
+
+- Node 22+; valide com `npm run typecheck` e `npm run build`.
+- Layout fixo 1920×480 dentro de `<Stage>`; sem `vw`/`vh`/media queries no palco.
+- Preact 11 não adiciona `px` a números em `style`.
+- `VickApi`: types + preload/ipcMain + mock em `api.ts`, sempre juntos.
+- Nunca editar `~/.claude/settings.json` do desenvolvedor nem versionar credenciais do Zoho.
+- Sem dependências nativas (o `.exe` é gerado no Mac sem Wine).

@@ -79,6 +79,7 @@ Em modo dev abrem a central de controle e uma janela de prévia 960×240 (a mesm
 | `npm run dev` | Desenvolvimento com hot reload |
 | `npm run typecheck` | Checagem de tipos |
 | `npm run build` | Build de produção em `out/` |
+| `npm run shots` | Regenera os prints de `docs/screenshots/` em 1920×480 |
 | `npm run dist:win` | Gera `dist/Vick-Control-Center-<versão>-portable.exe` |
 | `npm run dist:win:installer` | Gera um instalador NSIS por usuário |
 
@@ -228,7 +229,7 @@ Adicione em `MascotMood` e crie as regras `.m-<humor>` em `stage.css`. O SVG exp
 
 ## Contribuindo
 
-Issues e PRs são bem-vindos. Antes de abrir um PR, rode `npm run typecheck` e `npm run build`. Para mudanças visuais, anexe um print em 1920×480.
+Issues e PRs são bem-vindos. Usa IA para programar? As regras do projeto para agentes estão em [`AGENTS.md`](AGENTS.md), também lidas via `CLAUDE.md`, `.github/copilot-instructions.md` e `.cursor/rules/`. Antes de abrir um PR, rode `npm run typecheck` e `npm run build`. Para mudanças visuais, anexe um print em 1920×480.
 
 ---
 
